@@ -1,5 +1,5 @@
-[2022-10-25 19:46:25] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-[2022-10-25 19:46:25] - 
+[2022-10-25 19:45:40] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+[2022-10-25 19:45:40] - 
 
 
 ============================
@@ -1034,7 +1034,7 @@ Unconditional classes:
 
 
 
-[2022-10-25 19:46:25] - Application run failed
+[2022-10-25 19:45:40] - Application run failed
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
@@ -1147,7 +1147,7 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
 	... 99 common frames omitted
-[2022-10-25 19:46:25] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@48d5f34e] to prepare test instance [com.example.RestAPIProject.RestApiProjectApplicationTests@b77b0a0]
+[2022-10-25 19:45:40] - Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@48d5f34e] to prepare test instance [com.example.RestAPIProject.RestApiProjectApplicationTests@4cb24e2]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
@@ -1263,4 +1263,18 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
 	... 99 common frames omitted
-[2022-10-25 19:46:25] - After test class: context [DefaultTestContext@5b068087 testClass = RestApiProjectApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6f152006 testClass = RestApiProjectApplicationTests, locations = '{}', classes = '{class com.example.RestAPIProject.RestApiProjectApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@642a7222, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@147e2ae7, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@64b0598, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@32115b28, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@34129c78, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@63753b6d], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-10-25 19:45:40] - Starting RestApiProjectApplicationTests using Java 17.0.2 on mac2021.local with PID 10646 (started by teacher in /Users/Mahdi/Downloads/RestAPIProject)
+[2022-10-25 19:45:40] - Running with Spring Boot v2.7.5, Spring v5.3.23
+[2022-10-25 19:45:40] - No active profile set, falling back to 1 default profile: "default"
+[2022-10-25 19:45:40] - Loading source class com.example.RestAPIProject.RestApiProjectApplication
+[2022-10-25 19:45:40] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@fe42a09
+[2022-10-25 19:45:40] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-10-25 19:45:40] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2022-10-25 19:45:40] - Identified candidate component class: file [/Users/Mahdi/Downloads/RestAPIProject/target/classes/com/example/RestAPIProject/Controller/UserController.class]
+[2022-10-25 19:45:40] - Identified candidate component class: file [/Users/Mahdi/Downloads/RestAPIProject/target/classes/com/example/RestAPIProject/Security/SecurityConfig.class]
+[2022-10-25 19:45:40] - Identified candidate component class: file [/Users/Mahdi/Downloads/RestAPIProject/target/classes/com/example/RestAPIProject/Service/UserServiceImplements.class]
+[2022-10-25 19:45:40] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-25 19:45:40] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[2022-10-25 19:45:40] - @EnableAutoConfiguration was declared on a class in the package 'com.example.RestAPIProject'. Automatic @Repository and @Entity scanning is enabled.
+[2022-10-25 19:45:40] - Scanning for JPA repositories in packages com.example.RestAPIProject.
+[2022-10-25 19:45:40] - Identified candidate component class: file [/Users/Mahdi/Downloads/RestAPIProject/target/classes/com/example/RestAPIProject/Model/UserRepository.class]

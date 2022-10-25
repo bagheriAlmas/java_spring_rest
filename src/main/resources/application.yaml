@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost/db_users
+    url: jdbc:mysql://mysqldb/db_users
     username: mahdi
     password: mahdi
 

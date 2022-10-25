@@ -1,0 +1,283 @@
+[2022-10-25 11:20:08] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 11:20:08] - Exiting from "ERROR" dispatch, status 404
+[2022-10-25 11:20:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:20:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:20:45] - GET "/security", parameters={}
+[2022-10-25 11:20:45] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2022-10-25 11:20:45] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 11:20:45] - Resource not found
+[2022-10-25 11:20:45] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 11:20:45] - Completed 404 NOT_FOUND
+[2022-10-25 11:20:45] - "ERROR" dispatch for GET "/error", parameters={}
+[2022-10-25 11:20:45] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+[2022-10-25 11:20:45] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 11:20:45] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-10-25 11:20:45] - Writing [{timestamp=Tue Oct 25 11:20:45 IRST 2022, status=404, error=Not Found, path=/security}]
+[2022-10-25 11:20:45] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 11:20:45] - Exiting from "ERROR" dispatch, status 404
+[2022-10-25 11:20:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:20:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:21:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:21:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:21:30] - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2022-10-25 11:21:30] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@31add175, started on Tue Oct 25 09:46:27 IRST 2022
+[2022-10-25 11:21:30] - Stopping beans in phase 2147483647
+[2022-10-25 11:21:30] - Bean 'webServerGracefulShutdown' completed its stop procedure
+[2022-10-25 11:21:30] - Stopping beans in phase 2147483646
+[2022-10-25 11:21:30] - Bean 'webServerStartStop' completed its stop procedure
+[2022-10-25 11:21:30] - Stopping beans in phase -2147483647
+[2022-10-25 11:21:30] - Bean 'springBootLoggingLifecycle' completed its stop procedure
+[2022-10-25 11:21:30] - Shutting down ExecutorService 'applicationTaskExecutor'
+[2022-10-25 11:21:30] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[2022-10-25 11:21:30] - HHH000031: Closing
+[2022-10-25 11:21:30] - Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@49a52677] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@95cecc5]
+[2022-10-25 11:21:30] - Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2022-10-25 11:21:30] - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2022-10-25 11:21:30] - HikariPool-1 - Shutdown initiated...
+[2022-10-25 11:21:30] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:21:30] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7dca8: (connection evicted)
+[2022-10-25 11:21:30] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@19f8ae8b: (connection evicted)
+[2022-10-25 11:21:30] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@58c5a4b0: (connection evicted)
+[2022-10-25 11:21:30] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6957decb: (connection evicted)
+[2022-10-25 11:21:30] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1da28ad0: (connection evicted)
+[2022-10-25 11:21:30] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5c9f80eb: (connection evicted)
+[2022-10-25 11:21:30] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6d09bcf6: (connection evicted)
+[2022-10-25 11:21:30] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@689aae2b: (connection evicted)
+[2022-10-25 11:21:30] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@29a7a410: (connection evicted)
+[2022-10-25 11:21:30] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7b3d6a38: (connection evicted)
+[2022-10-25 11:21:30] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2022-10-25 11:21:30] - HikariPool-1 - Shutdown completed.
+[2022-10-25 11:21:32] - Application run failed
+org.yaml.snakeyaml.scanner.ScannerException: mapping values are not allowed here
+ in 'reader', line 15, column 13:
+            role: USER
+                ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchValue(ScannerImpl.java:910)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:400)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:251)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:628)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:166)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:214)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:184)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:135)
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.getData(OriginTrackedYamlLoader.java:103)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:514)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:198)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:88)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:54)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:36)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:107)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:128)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:86)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:116)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:240)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:227)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:102)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:94)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:102)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:87)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.RestAPIProject.RestApiProjectApplication.main(RestApiProjectApplication.java:10)
+[2022-10-25 11:21:47] - Application run failed
+org.yaml.snakeyaml.scanner.ScannerException: mapping values are not allowed here
+ in 'reader', line 15, column 13:
+            role: USER
+                ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchValue(ScannerImpl.java:910)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:400)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:251)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:628)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:166)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:214)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:184)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:135)
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.getData(OriginTrackedYamlLoader.java:103)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:514)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:198)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:88)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:54)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:36)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:107)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:128)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:86)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:116)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:240)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:227)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:102)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:94)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:102)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:87)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.RestAPIProject.RestApiProjectApplication.main(RestApiProjectApplication.java:10)
+[2022-10-25 11:41:17] - Application run failed
+org.yaml.snakeyaml.scanner.ScannerException: mapping values are not allowed here
+ in 'reader', line 15, column 13:
+            role: USER
+                ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchValue(ScannerImpl.java:910)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:400)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:251)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:628)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:166)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:214)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:184)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:135)
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.getData(OriginTrackedYamlLoader.java:103)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:514)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:198)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:88)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:54)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:36)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:107)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:128)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:86)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:116)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:240)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:227)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:102)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:94)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:102)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:87)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.example.RestAPIProject.RestApiProjectApplication.main(RestApiProjectApplication.java:10)
+[2022-10-25 19:45:36] - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+[2022-10-25 19:45:36] - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+[2022-10-25 19:45:36] - Instantiating TestContextBootstrapper for test class [com.example.RestAPIProject.RestApiProjectApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+[2022-10-25 19:45:36] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.RestAPIProject.RestApiProjectApplicationTests], using SpringBootContextLoader
+[2022-10-25 19:45:36] - Did not detect default resource location for test class [com.example.RestAPIProject.RestApiProjectApplicationTests]: class path resource [com/example/RestAPIProject/RestApiProjectApplicationTests-context.xml] does not exist
+[2022-10-25 19:45:36] - Did not detect default resource location for test class [com.example.RestAPIProject.RestApiProjectApplicationTests]: class path resource [com/example/RestAPIProject/RestApiProjectApplicationTestsContext.groovy] does not exist
+[2022-10-25 19:45:36] - Could not detect default resource locations for test class [com.example.RestAPIProject.RestApiProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2022-10-25 19:45:36] - Could not detect default configuration classes for test class [com.example.RestAPIProject.RestApiProjectApplicationTests]: RestApiProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2022-10-25 19:45:36] - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.RestAPIProject.RestApiProjectApplicationTests]
+[2022-10-25 19:45:36] - Identified candidate component class: file [/Users/Mahdi/Downloads/RestAPIProject/target/classes/com/example/RestAPIProject/RestApiProjectApplication.class]
+[2022-10-25 19:45:36] - Found @SpringBootConfiguration com.example.RestAPIProject.RestApiProjectApplication for test class com.example.RestAPIProject.RestApiProjectApplicationTests
+[2022-10-25 19:45:36] - @TestExecutionListeners is not present for class [com.example.RestAPIProject.RestApiProjectApplicationTests]: using defaults.
+[2022-10-25 19:45:36] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+[2022-10-25 19:45:36] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@48d5f34e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@fc258b1, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6ff65192, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2dd80673, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4af0df05, org.springframework.test.context.support.DirtiesContextTestExecutionListener@57ea113a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@acdb094, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@674bd420, org.springframework.test.context.event.EventPublishingTestExecutionListener@2b0f373b, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@2ceb80a1, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@4b45dcb8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7216fb24, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2072acb2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@50ecde95, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@35a9782c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@70a36a66, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@45815ffc]
+[2022-10-25 19:45:36] - Before test class: context [DefaultTestContext@5b068087 testClass = RestApiProjectApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6f152006 testClass = RestApiProjectApplicationTests, locations = '{}', classes = '{class com.example.RestAPIProject.RestApiProjectApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@642a7222, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@147e2ae7, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@64b0598, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@32115b28, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@34129c78, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@63753b6d], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+[2022-10-25 19:45:36] - Starting RestApiProjectApplicationTests using Java 17.0.2 on mac2021.local with PID 10646 (started by teacher in /Users/Mahdi/Downloads/RestAPIProject)
+[2022-10-25 19:45:36] - Running with Spring Boot v2.7.5, Spring v5.3.23
+[2022-10-25 19:45:36] - No active profile set, falling back to 1 default profile: "default"
+[2022-10-25 19:45:36] - Loading source class com.example.RestAPIProject.RestApiProjectApplication
+[2022-10-25 19:45:36] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@36ac8a63
+[2022-10-25 19:45:36] - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2022-10-25 19:45:36] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2022-10-25 19:45:36] - Identified candidate component class: file [/Users/Mahdi/Downloads/RestAPIProject/target/classes/com/example/RestAPIProject/Controller/UserController.class]
+[2022-10-25 19:45:36] - Identified candidate component class: file [/Users/Mahdi/Downloads/RestAPIProject/target/classes/com/example/RestAPIProject/Security/SecurityConfig.class]
+[2022-10-25 19:45:36] - Identified candidate component class: file [/Users/Mahdi/Downloads/RestAPIProject/target/classes/com/example/RestAPIProject/Service/UserServiceImplements.class]
+[2022-10-25 19:45:37] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2022-10-25 19:45:37] - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.AutoConfigurationPackages'
+[2022-10-25 19:45:37] - @EnableAutoConfiguration was declared on a class in the package 'com.example.RestAPIProject'. Automatic @Repository and @Entity scanning is enabled.
+[2022-10-25 19:45:37] - Scanning for JPA repositories in packages com.example.RestAPIProject.
+[2022-10-25 19:45:37] - Identified candidate component class: file [/Users/Mahdi/Downloads/RestAPIProject/target/classes/com/example/RestAPIProject/Model/UserRepository.class]
