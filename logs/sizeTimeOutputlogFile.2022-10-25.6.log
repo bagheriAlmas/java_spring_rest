@@ -1,0 +1,113 @@
+[2022-10-25 09:49:12] - GET "/User/1", parameters={}
+[2022-10-25 09:49:12] - Mapped to com.example.RestAPIProject.Controller.UserController#getUserByID(int)
+[2022-10-25 09:49:12] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 09:49:12] - USER 1 GET
+[2022-10-25 09:49:12] - Found thread-bound EntityManager [SessionImpl(200538502<open>)] for JPA transaction
+[2022-10-25 09:49:12] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2022-10-25 09:49:12] - Setting JDBC Connection [HikariProxyConnection@265059360 wrapping com.mysql.cj.jdbc.ConnectionImpl@38f617f4] read-only
+[2022-10-25 09:49:12] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2022-10-25 09:49:12] - begin
+[2022-10-25 09:49:12] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@4acef3bd]
+[2022-10-25 09:49:12] - select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.first_name as first_na3_0_0_, user0_.last_name as last_nam4_0_0_, user0_.password as password5_0_0_ from tbl_users user0_ where user0_.id=?
+[2022-10-25 09:49:12] - Done entity load : com.example.RestAPIProject.Model.User#1
+[2022-10-25 09:49:12] - Initiating transaction commit
+[2022-10-25 09:49:12] - Committing JPA transaction on EntityManager [SessionImpl(200538502<open>)]
+[2022-10-25 09:49:12] - committing
+[2022-10-25 09:49:12] - Resetting read-only flag of JDBC Connection [HikariProxyConnection@265059360 wrapping com.mysql.cj.jdbc.ConnectionImpl@38f617f4]
+[2022-10-25 09:49:12] - Not closing pre-bound JPA EntityManager after transaction
+[2022-10-25 09:49:12] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 09:49:12] - Failed to complete request: java.util.NoSuchElementException: No value present
+[2022-10-25 09:49:12] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:143)
+	at com.example.RestAPIProject.Service.UserServiceImplements.getUserByID(UserServiceImplements.java:38)
+	at com.example.RestAPIProject.Controller.UserController.getUserByID(UserController.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[2022-10-25 09:49:12] - "ERROR" dispatch for GET "/error", parameters={}
+[2022-10-25 09:49:12] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+[2022-10-25 09:49:12] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 09:49:12] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-10-25 09:49:12] - Writing [{timestamp=Tue Oct 25 09:49:12 IRST 2022, status=500, error=Internal Server Error, path=/User/1}]
+[2022-10-25 09:49:12] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 09:49:12] - Exiting from "ERROR" dispatch, status 500
+[2022-10-25 09:49:15] - GET "/User/2", parameters={}
+[2022-10-25 09:49:15] - Mapped to com.example.RestAPIProject.Controller.UserController#getUserByID(int)
+[2022-10-25 09:49:15] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 09:49:15] - USER 2 GET
+[2022-10-25 09:49:15] - Found thread-bound EntityManager [SessionImpl(439834135<open>)] for JPA transaction
+[2022-10-25 09:49:15] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findById]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2022-10-25 09:49:15] - Setting JDBC Connection [HikariProxyConnection@351316769 wrapping com.mysql.cj.jdbc.ConnectionImpl@38f617f4] read-only
+[2022-10-25 09:49:15] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2022-10-25 09:49:15] - begin
+[2022-10-25 09:49:15] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@10cf3d67]
+[2022-10-25 09:49:15] - select user0_.id as id1_0_0_, user0_.email as email2_0_0_, user0_.first_name as first_na3_0_0_, user0_.last_name as last_nam4_0_0_, user0_.password as password5_0_0_ from tbl_users user0_ where user0_.id=?
+[2022-10-25 09:49:15] - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[2022-10-25 09:49:15] - Resolving attributes for [com.example.RestAPIProject.Model.User#2]
+[2022-10-25 09:49:15] - Processing attribute `email` : value = Bagheri.Almas@gmail.com
+[2022-10-25 09:49:15] - Attribute (`email`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:15] - Processing attribute `firstName` : value = Mahdi
+[2022-10-25 09:49:15] - Attribute (`firstName`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:15] - Processing attribute `lastName` : value = Bagheri
+[2022-10-25 09:49:15] - Attribute (`lastName`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:15] - Processing attribute `password` : value = 123
+[2022-10-25 09:49:15] - Attribute (`password`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:15] - Done materializing entity [com.example.RestAPIProject.Model.User#2]
+[2022-10-25 09:49:15] - Done entity load : com.example.RestAPIProject.Model.User#2
+[2022-10-25 09:49:15] - Initiating transaction commit
+[2022-10-25 09:49:15] - Committing JPA transaction on EntityManager [SessionImpl(439834135<open>)]
+[2022-10-25 09:49:15] - committing
+[2022-10-25 09:49:15] - Resetting read-only flag of JDBC Connection [HikariProxyConnection@351316769 wrapping com.mysql.cj.jdbc.ConnectionImpl@38f617f4]
+[2022-10-25 09:49:15] - Not closing pre-bound JPA EntityManager after transaction
+[2022-10-25 09:49:15] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-10-25 09:49:15] - Writing [com.example.RestAPIProject.Model.User@64aa3ffd]
+[2022-10-25 09:49:15] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 09:49:15] - Completed 200 OK

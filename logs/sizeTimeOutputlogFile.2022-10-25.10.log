@@ -1,0 +1,112 @@
+[2022-10-25 11:02:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:02:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:03:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:03:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:03:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:03:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:04:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:04:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:04:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:04:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:05:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:05:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:05:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:05:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:06:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:06:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:06:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:06:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:07:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:07:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:07:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:07:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:08:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:08:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:08:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:08:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:09:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:09:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:09:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:09:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:10:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:10:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:10:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:10:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:11:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:11:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:11:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:11:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:12:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:12:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:12:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:12:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:13:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:13:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:13:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:13:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:14:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:14:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:14:57] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1cf9e5db: (connection has passed maxLifetime)
+[2022-10-25 11:14:57] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7dca8
+[2022-10-25 11:14:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:14:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:15:09] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@244c962d: (connection has passed maxLifetime)
+[2022-10-25 11:15:10] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19f8ae8b
+[2022-10-25 11:15:12] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2dc492a3: (connection has passed maxLifetime)
+[2022-10-25 11:15:12] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58c5a4b0
+[2022-10-25 11:15:12] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@65719c16: (connection has passed maxLifetime)
+[2022-10-25 11:15:12] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6957decb
+[2022-10-25 11:15:23] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@122bfe: (connection has passed maxLifetime)
+[2022-10-25 11:15:23] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1da28ad0
+[2022-10-25 11:15:25] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@412f21c5: (connection has passed maxLifetime)
+[2022-10-25 11:15:25] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c9f80eb
+[2022-10-25 11:15:27] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6cf99898: (connection has passed maxLifetime)
+[2022-10-25 11:15:27] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d09bcf6
+[2022-10-25 11:15:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:15:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:15:43] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@30c52f7f: (connection has passed maxLifetime)
+[2022-10-25 11:15:43] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@689aae2b
+[2022-10-25 11:15:44] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1885ecc: (connection has passed maxLifetime)
+[2022-10-25 11:15:44] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29a7a410
+[2022-10-25 11:15:58] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1cfa7d5e: (connection has passed maxLifetime)
+[2022-10-25 11:15:58] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b3d6a38
+[2022-10-25 11:15:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:15:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:16:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:16:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:16:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:16:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:17:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:17:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:17:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:17:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:18:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:18:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:18:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:18:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:19:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:19:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:19:42] - GET "/security", parameters={}
+[2022-10-25 11:19:42] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2022-10-25 11:19:42] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 11:19:42] - Resource not found
+[2022-10-25 11:19:42] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 11:19:42] - Completed 404 NOT_FOUND
+[2022-10-25 11:19:42] - "ERROR" dispatch for GET "/error", parameters={}
+[2022-10-25 11:19:42] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+[2022-10-25 11:19:42] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 11:19:42] - Selected 'text/html' given [text/html, text/html;q=0.8]
+[2022-10-25 11:19:42] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 11:19:42] - Exiting from "ERROR" dispatch, status 404
+[2022-10-25 11:19:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 11:19:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 11:20:08] - GET "/security", parameters={}
+[2022-10-25 11:20:08] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2022-10-25 11:20:08] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 11:20:08] - Resource not found
+[2022-10-25 11:20:08] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 11:20:08] - Completed 404 NOT_FOUND
+[2022-10-25 11:20:08] - "ERROR" dispatch for GET "/error", parameters={}
+[2022-10-25 11:20:08] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+[2022-10-25 11:20:08] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 11:20:08] - Selected 'text/html' given [text/html, text/html;q=0.8]

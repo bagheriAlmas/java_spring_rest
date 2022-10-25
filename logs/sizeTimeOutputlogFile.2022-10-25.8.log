@@ -1,0 +1,112 @@
+[2022-10-25 10:15:57] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bef63fd
+[2022-10-25 10:15:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:15:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:16:08] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@33b48f5e: (connection has passed maxLifetime)
+[2022-10-25 10:16:08] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2254d60b
+[2022-10-25 10:16:15] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@20cbc76d: (connection has passed maxLifetime)
+[2022-10-25 10:16:15] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@533d84f0
+[2022-10-25 10:16:21] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@24851f49: (connection has passed maxLifetime)
+[2022-10-25 10:16:21] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@188d8a02
+[2022-10-25 10:16:21] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@217fbbd0: (connection has passed maxLifetime)
+[2022-10-25 10:16:21] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:16:21] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59b08039
+[2022-10-25 10:16:22] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@38f617f4: (connection has passed maxLifetime)
+[2022-10-25 10:16:22] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68a31e13
+[2022-10-25 10:16:27] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@622a8419: (connection has passed maxLifetime)
+[2022-10-25 10:16:27] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@399f7f76
+[2022-10-25 10:16:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:16:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:16:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:16:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:17:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:17:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:17:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:17:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:18:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:18:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:18:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:18:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:19:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:19:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:19:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:19:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:20:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:20:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:20:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:20:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:21:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:21:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:21:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:21:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:22:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:22:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:22:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:22:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:23:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:23:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:23:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:23:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:24:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:24:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:24:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:24:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:25:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:25:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:25:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:25:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:26:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:26:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:26:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:26:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:27:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:27:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:27:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:27:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:28:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:28:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:28:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:28:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:29:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:29:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:29:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:29:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:30:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:30:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:30:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:30:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:31:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:31:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:31:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:31:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:32:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:32:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:32:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:32:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:33:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:33:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:33:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:33:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:34:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:34:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:34:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:34:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:35:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:35:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:35:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:35:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:36:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:36:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:36:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:36:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:37:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:37:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:37:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:37:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:38:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:38:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:38:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:38:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:39:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:39:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 10:39:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 10:39:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.

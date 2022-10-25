@@ -1,0 +1,152 @@
+[2022-10-25 09:48:17] - Initiating transaction commit
+[2022-10-25 09:48:17] - Committing JPA transaction on EntityManager [SessionImpl(31261989<open>)]
+[2022-10-25 09:48:17] - committing
+[2022-10-25 09:48:17] - Processing flush-time cascades
+[2022-10-25 09:48:17] - Dirty checking collections
+[2022-10-25 09:48:17] - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[2022-10-25 09:48:17] - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[2022-10-25 09:48:17] - Listing entities:
+[2022-10-25 09:48:17] - com.example.RestAPIProject.Model.User{firstName=mahdi, lastName=bagheri, password=2937842, id=5, email=bagheri@gmail.com}
+[2022-10-25 09:48:17] - Not closing pre-bound JPA EntityManager after transaction
+[2022-10-25 09:48:17] - USER mahdi bagheri HAS CREATED
+[2022-10-25 09:48:17] - Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+[2022-10-25 09:48:17] - Writing ["USER CREATE SUCCESSFUL"]
+[2022-10-25 09:48:17] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 09:48:17] - Completed 200 OK
+[2022-10-25 09:48:28] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 09:48:28] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 09:48:54] - GET "/cloudvendor/", parameters={}
+[2022-10-25 09:48:54] - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+[2022-10-25 09:48:54] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 09:48:54] - Resource not found
+[2022-10-25 09:48:54] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 09:48:54] - Completed 404 NOT_FOUND
+[2022-10-25 09:48:54] - "ERROR" dispatch for GET "/error", parameters={}
+[2022-10-25 09:48:54] - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+[2022-10-25 09:48:54] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 09:48:54] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-10-25 09:48:54] - Writing [{timestamp=Tue Oct 25 09:48:54 IRST 2022, status=404, error=Not Found, path=/cloudvendor/}]
+[2022-10-25 09:48:54] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 09:48:54] - Exiting from "ERROR" dispatch, status 404
+[2022-10-25 09:48:58] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2022-10-25 09:48:58] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2022-10-25 09:49:01] - GET "/User", parameters={}
+[2022-10-25 09:49:01] - Mapped to com.example.RestAPIProject.Controller.UserController#getAllUsers()
+[2022-10-25 09:49:01] - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 09:49:01] - GET ALL USERS
+[2022-10-25 09:49:01] - Found thread-bound EntityManager [SessionImpl(1188046751<open>)] for JPA transaction
+[2022-10-25 09:49:01] - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+[2022-10-25 09:49:01] - Setting JDBC Connection [HikariProxyConnection@64135457 wrapping com.mysql.cj.jdbc.ConnectionImpl@38f617f4] read-only
+[2022-10-25 09:49:01] - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[2022-10-25 09:49:01] - begin
+[2022-10-25 09:49:01] - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@d13da80]
+[2022-10-25 09:49:01] - Rendered criteria query -> select generatedAlias0 from User as generatedAlias0
+[2022-10-25 09:49:01] - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@7bcb318
+[2022-10-25 09:49:01] - parse() - HQL: select generatedAlias0 from com.example.RestAPIProject.Model.User as generatedAlias0
+[2022-10-25 09:49:01] - throwQueryException() : no errors
+[2022-10-25 09:49:01] - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  |  \-[IDENT] Node: 'example'
+       |     |  |  |  \-[IDENT] Node: 'RestAPIProject'
+       |     |  |  \-[IDENT] Node: 'Model'
+       |     |  \-[IDENT] Node: 'User'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+[2022-10-25 09:49:01] - select << begin [level=1, statement=select]
+[2022-10-25 09:49:01] - FromClause{level=1} : com.example.RestAPIProject.Model.User (generatedAlias0) -> user0_
+[2022-10-25 09:49:01] - Resolved : generatedAlias0 -> user0_.id
+[2022-10-25 09:49:01] - select : finishing up [level=1, statement=select]
+[2022-10-25 09:49:01] - processQuery() :  ( SELECT ( {select clause} user0_.id ) ( FromClause{level=1} tbl_users user0_ ) )
+[2022-10-25 09:49:01] - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity User): [tbl_users]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.example.RestAPIProject.Model.User)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+[2022-10-25 09:49:01] - Using FROM fragment [tbl_users user0_]
+[2022-10-25 09:49:01] - select >> end [level=1, statement=select]
+[2022-10-25 09:49:01] - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (tbl_users)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'user0_.id as id1_0_' {alias=generatedAlias0, className=com.example.RestAPIProject.Model.User, tableAlias=user0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.email as email2_0_, user0_.first_name as first_na3_0_, user0_.last_name as last_nam4_0_, user0_.password as password5_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'tbl_users user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=tbl_users,tableAlias=user0_,origin=null,columns={,className=com.example.RestAPIProject.Model.User}}
+
+[2022-10-25 09:49:01] - throwQueryException() : no errors
+[2022-10-25 09:49:01] - HQL: select generatedAlias0 from com.example.RestAPIProject.Model.User as generatedAlias0
+[2022-10-25 09:49:01] - SQL: select user0_.id as id1_0_, user0_.email as email2_0_, user0_.first_name as first_na3_0_, user0_.last_name as last_nam4_0_, user0_.password as password5_0_ from tbl_users user0_
+[2022-10-25 09:49:01] - throwQueryException() : no errors
+[2022-10-25 09:49:01] - select user0_.id as id1_0_, user0_.email as email2_0_, user0_.first_name as first_na3_0_, user0_.last_name as last_nam4_0_, user0_.password as password5_0_ from tbl_users user0_
+[2022-10-25 09:49:01] - Result set row: 0
+[2022-10-25 09:49:01] - Result row: EntityKey[com.example.RestAPIProject.Model.User#2]
+[2022-10-25 09:49:01] - Result set row: 1
+[2022-10-25 09:49:01] - Result row: EntityKey[com.example.RestAPIProject.Model.User#3]
+[2022-10-25 09:49:01] - Result set row: 2
+[2022-10-25 09:49:01] - Result row: EntityKey[com.example.RestAPIProject.Model.User#4]
+[2022-10-25 09:49:01] - Result set row: 3
+[2022-10-25 09:49:01] - Result row: EntityKey[com.example.RestAPIProject.Model.User#5]
+[2022-10-25 09:49:01] - Resolving attributes for [com.example.RestAPIProject.Model.User#2]
+[2022-10-25 09:49:01] - Processing attribute `email` : value = Bagheri.Almas@gmail.com
+[2022-10-25 09:49:01] - Attribute (`email`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Processing attribute `firstName` : value = Mahdi
+[2022-10-25 09:49:01] - Attribute (`firstName`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Processing attribute `lastName` : value = Bagheri
+[2022-10-25 09:49:01] - Attribute (`lastName`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Processing attribute `password` : value = 123
+[2022-10-25 09:49:01] - Attribute (`password`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Done materializing entity [com.example.RestAPIProject.Model.User#2]
+[2022-10-25 09:49:01] - Resolving attributes for [com.example.RestAPIProject.Model.User#3]
+[2022-10-25 09:49:01] - Processing attribute `email` : value = Bagheri.Almas@gmail.com
+[2022-10-25 09:49:01] - Attribute (`email`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Processing attribute `firstName` : value = Mahdi
+[2022-10-25 09:49:01] - Attribute (`firstName`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Processing attribute `lastName` : value = Bagheri
+[2022-10-25 09:49:01] - Attribute (`lastName`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Processing attribute `password` : value = 123
+[2022-10-25 09:49:01] - Attribute (`password`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Done materializing entity [com.example.RestAPIProject.Model.User#3]
+[2022-10-25 09:49:01] - Resolving attributes for [com.example.RestAPIProject.Model.User#4]
+[2022-10-25 09:49:01] - Processing attribute `email` : value = Bagheri.Almas@gmail.com
+[2022-10-25 09:49:01] - Attribute (`email`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Processing attribute `firstName` : value = Mahdi
+[2022-10-25 09:49:01] - Attribute (`firstName`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Processing attribute `lastName` : value = Bagheri
+[2022-10-25 09:49:01] - Attribute (`lastName`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Processing attribute `password` : value = 123
+[2022-10-25 09:49:01] - Attribute (`password`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Done materializing entity [com.example.RestAPIProject.Model.User#4]
+[2022-10-25 09:49:01] - Resolving attributes for [com.example.RestAPIProject.Model.User#5]
+[2022-10-25 09:49:01] - Processing attribute `email` : value = bagheri@gmail.com
+[2022-10-25 09:49:01] - Attribute (`email`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Processing attribute `firstName` : value = mahdi
+[2022-10-25 09:49:01] - Attribute (`firstName`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Processing attribute `lastName` : value = bagheri
+[2022-10-25 09:49:01] - Attribute (`lastName`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Processing attribute `password` : value = 2937842
+[2022-10-25 09:49:01] - Attribute (`password`)  - enhanced for lazy-loading? - false
+[2022-10-25 09:49:01] - Done materializing entity [com.example.RestAPIProject.Model.User#5]
+[2022-10-25 09:49:01] - Initiating transaction commit
+[2022-10-25 09:49:01] - Committing JPA transaction on EntityManager [SessionImpl(1188046751<open>)]
+[2022-10-25 09:49:01] - committing
+[2022-10-25 09:49:01] - Resetting read-only flag of JDBC Connection [HikariProxyConnection@64135457 wrapping com.mysql.cj.jdbc.ConnectionImpl@38f617f4]
+[2022-10-25 09:49:01] - Not closing pre-bound JPA EntityManager after transaction
+[2022-10-25 09:49:01] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+[2022-10-25 09:49:01] - Writing [[com.example.RestAPIProject.Model.User@671f5218, com.example.RestAPIProject.Model.User@6b6cb0de, com (truncated)...]
+[2022-10-25 09:49:01] - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+[2022-10-25 09:49:01] - Completed 200 OK

@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/db_users
+    username: mahdi
+    password: mahdi
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  app:
+    security:
+      user-name: user
+      password-text: $2a$12$uNkDPZr97xCNCWkl0TPOD./H5d9CiQTUgGtRmLPY6g53Au2sT0XTm
+      role: USER
